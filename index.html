@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>MyPortfolio</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <h1>Hello, I'm Fatima Ezzahra ✨</h1>
+    <p>Student | Developer | Designer</p>
+</header>
+
+<section class="section">
+    <h2>About Me</h2>
+    <p>I am a first-year student passionate about web development and programming.</p>
+</section>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>MyPortfolio</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<section class="section">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>Mini Website</h3>
+        <p>HTML/CSS project for practice.</p>
+    </div>
+
+    <div class="card">
+        <h3>C Programming</h3>
+        <p>Basic algorithms and exercises in C.</p>
+    </div>
+</section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>MyPortfolio</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="section">
+    <h2>Contact Me</h2>
+
+    <form>
+        <input type="text" placeholder="Fatima Ezzahra" required>
+        <input type="email" placeholder="kablifatimaezzahra606@gmail.com" required>
+        <textarea placeholder=" message  " required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</body>
+</html>
+
+
+
+body{
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    background:#222;
+    color:white;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:60px;
+    background:#6c63ff;
+    color:white;
+}
+
+.section{
+    padding:40px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    margin:10px 0;
+    border-radius:10px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    width:300px;
+}
+
+input, textarea{
+    padding:10px;
+}
+
+button{
+    padding:10px;
+    background:#6c63ff;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
